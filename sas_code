@@ -8,10 +8,9 @@
 
 
 *Libraries;
-libname SVH "\\cdc.gov\project\CCID_NCPDCID_NHSN_SAS\Data\work\_Projects\LTC\COVID-19\SAS datasets";
-libname vax "\\cdc.gov\project\CCID_NCPDCID_NHSN_SAS\Data\work\_Projects\Vaccination\Datasets\Current\";
-libname covid "\\cdc.gov\project\CCID_NCPDCID_NHSN_SAS\Data\work\_Projects\LTC\COVID-19\SAS datasets\Weekly";
-
+libname SVH "XXXX";
+libname vax "XXXX";
+libname covid "XXXX";
 
 *Import Org IDs Data ;
 data org_id;
