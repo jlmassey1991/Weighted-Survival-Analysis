@@ -34,10 +34,10 @@ options(scipen=999)
 #####################
 
 # Read in Survival Data
-survival <- read.csv("//cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Codes/Jason/Mary_Projects/SVH_survival/propensity_updatedmm4.csv")
+survival <- read.csv("XXXX")
 
 # Read in Facility Covariate Data
-covariates <- read_sas("//cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Codes/Jason/Mary_Projects/SVH_survival/ltc_facility_svh.sas7bdat")
+covariates <- read_sas("XXXX")
 
 # Left Join Covariates to propensity 
 propensity <- left_join(survival, covariates, by = "orgid")
